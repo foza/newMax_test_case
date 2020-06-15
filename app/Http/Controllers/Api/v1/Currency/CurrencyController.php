@@ -29,4 +29,9 @@ class CurrencyController extends BaseController
     {
         return $this->responseWithData($this->currencyRepository->getById($id));
     }
+
+    public function all()
+    {
+        return $this->responseWithData($this->currencyRepository->all());
+    }
 }

@@ -23,6 +23,6 @@ class CurrencyRepository implements CurrencyInterfaces
 
     public function all()
     {
-        // TODO: Implement all() method.
+        return Currency::paginate();
     }
 }

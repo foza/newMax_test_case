@@ -21,6 +21,7 @@ Route::group(
             ],
             function () {
                 Route::get('currencies/{id}', 'Currency\CurrencyController@getById');
+                Route::get('currencies', 'Currency\CurrencyController@all');
                 Route::get('logout', 'Auth\AuthController@logout');
             }
         );
