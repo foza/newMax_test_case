@@ -1,11 +1,13 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Currency
+ * @property mixed name
+ * @property mixed rate
  * @package App
  */
 class Currency extends Model
