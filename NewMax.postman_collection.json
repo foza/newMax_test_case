@@ -20,7 +20,7 @@
 						},
 						{
 							"key": "email",
-							"value": "test@test.de",
+							"value": "test@test.tsy",
 							"type": "text"
 						},
 						{
@@ -154,7 +154,7 @@
 					"formdata": [
 						{
 							"key": "email",
-							"value": "test@test.ts",
+							"value": "test@test.tsy",
 							"type": "text"
 						},
 						{
@@ -266,26 +266,26 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTkwZGM3Y2FlZTdlZGY1MDFhOTFlOTA2Y2YxMTA1MWNkNWRjOTkxNTE3N2E1MWU4Y2NlOTI5OWEyM2I2NTc2OTkzMGU5YmFiMWYyYmViZWYiLCJpYXQiOjE1OTIyNDA5NzQsIm5iZiI6MTU5MjI0MDk3NCwiZXhwIjoxNjIzNzc2OTc0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bKZPnkN6LAVMBKzMtrGgg384FI_SWbEDGeAPATkOQJfkj2kQ6r_1TucGcD5dKbjipCoQCodgbbTRjldREMNxWeI08q0ozAVkYC9bABkYRTWWP4_KKP5stK64lGfyS4DZQbNBT-t1PrI9Jl8IEpRlTd8E2DEKQsVEyNvV2NVfrpZN3c6_ofWzKCRWcRd6mDZJVuwBa_6jWJFWJYbkjv2hXMkmAoOhDwUSC-mAWTq1gdWf8ozutdkUTw0NuhAzW47zgBzuZNe8_n__mqexNYvnj5Mn0hg7lrcD-3hy1Ek6jHzo1QjELSsVsTR1NixKosyLQv_4c-mpMBI8AgB1zzM9UTghsUjN-wCl_jqrEdJQeNbgsXivFHDSRDIuEZD8HRupu9kl1LT5PhkTSl-0D18Q4HdqBf_jO9URtoKxaikrcUUp6Gr5LF8FHSpNzTVGNm3LRhO1rLPZANMaoPTscuckTyGZXeQ8qtRSe5s8748q8u6ssVuujqyjlQ3UZuPu5qWCTtay2iR6neAd1vq3Z3bl40U-IrvyjDx4timLe2jzr3aY7_LcI6tRuIujMlHr7YMkpC3ytzhC_sxqF9s__31f-IxkapOYB7lXZJ99IAvoMznRQCgT2DapeYS4Q-4yoJStkdbYfRUz8NnqvKCVnDXk_ZDVCWhD94S41kJMKmVXRdQ",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNDAyZjdiY2Y3Y2I3YTZmZjg3ODIyZTNiMGJiZGJiNjg4ZTEwN2RlYTI2ZDM3NzczOGRhNjdiOTZlYjdjMzJkZjQyNmUyOGEzYTA3NjdiYjQiLCJpYXQiOjE1OTIyNDc5MTAsIm5iZiI6MTU5MjI0NzkxMCwiZXhwIjoxNjIzNzgzOTEwLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.meyMPESoAjcHoS6kx4QGzAy_bwCd_B8_cf3wr3-mewSFmdsdWwunuidpjApjOuPZnTmrP2WP2drkB-VLmImSnQmuF04QHQzSh_W8r0YoDeHKTJ7aEDQQLDh0x5S8zUBmuijhAE-m837RBkotGtlxuqezSSvwuz8-uTbmkqlB1OyKBBl5fWDnlktllrZGYOgxjLalAbrHJBIumLmraCzULt3pUEvPQZ-_zpoDKzWr_4Pw1BnL5XvYyAydqOAy9gEUzem_tSmY91w75iWT-RA7u5tn4XxIAWvXBYx7JgG6n9eW7h9DZOk6Bw_Kexv2VJ_YXTXooOsAspvwEO9rAon-aMQeCIwtRcpL5vTwC0bPq9bP22Dr5ZJN7jQ0cXtTr51LfcBzXgYK5ChBg92AY7nPZ5mHU5dA8IQFCqjfcul5rfkUGxFl_hOc-oJIW0AKKbfse6hY3TmS7Lp3GyX4uByNwH1K0PmaosiMRA0Cu9c8j9ODPIWWszI8gNZR1A_D6iGTWHlKpiwDNvectEy1OMbamtpU3MFx5XaPCDWTpDxNDDN2cIfsaI_-QIAVoivTRRNLlIGbUbRTyzWx_f31Z0w451atTgaNTG8Nm7TlxPmFAGMrELAdA6DjE0boudSzMnRyvo7JC5Fr7wTRKQA4EhWg_UYeUoAJSfIAAWpHRIg5dkA",
 						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "localhost:8000/api/currencies/1",
+					"raw": "localhost:8000/api/currency/1",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
 						"api",
-						"currencies",
+						"currency",
 						"1"
 					]
 				}
 			},
 			"response": [
 				{
-					"name": "127.0.0.1:8000/api/currencies/1",
+					"name": "127.0.0.1:8000/api/currency/1",
 					"originalRequest": {
 						"method": "GET",
 						"header": [
@@ -296,14 +296,14 @@
 							}
 						],
 						"url": {
-							"raw": "localhost:8000/api/currencies/1",
+							"raw": "localhost:8000/api/currency/1",
 							"host": [
 								"localhost"
 							],
 							"port": "8000",
 							"path": [
 								"api",
-								"currencies",
+								"currency",
 								"1"
 							]
 						}
