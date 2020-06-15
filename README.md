@@ -23,8 +23,11 @@ API должно быть закрыто bearer авторизацией.
 ###=============================================
 1. clone repository and run command _composer install_
 2. set .env
-3. run migration
-4. _php artisan update:currency_ run command in console for getting data from api
-5. php artisan serve
+3. run migration _php artisan migrate_
+4. _php artisan passport:install_
+5. _php artisan update:currency_ run command in console for getting data from api
+6. php artisan serve
+
+*php artisan key:generate
 
 **Import NewMax.postman_collection.json to POSTMAN**
