@@ -21,9 +21,10 @@ API должно быть закрыто bearer авторизацией.
 *Будет плюсом:
 - Использования ООП и Паттернов
 ###=============================================
-1. clone
+1. clone repository and run command _composer install_
 2. set .env
 3. run migration
 4. _php artisan update:currency_ run command in console for getting data from api
+5. php artisan serve
 
-
+**Import NewMax.postman_collection.json to POSTMAN**

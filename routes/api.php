@@ -20,7 +20,7 @@ Route::group(
                 'namespace' => 'Api\\v1',
             ],
             function () {
-                Route::get('currencies/{id}', 'Currency\CurrencyController@getById');
+                Route::get('currency/{id}', 'Currency\CurrencyController@getById');
                 Route::get('currencies', 'Currency\CurrencyController@all');
                 Route::get('logout', 'Auth\AuthController@logout');
             }

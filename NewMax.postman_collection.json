@@ -1,0 +1,459 @@
+{
+	"info": {
+		"_postman_id": "95d1a944-1aa6-49a2-a140-31c07f2c83da",
+		"name": "NewMax",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "demo",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "test@test.de",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "230230",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "230230",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/register",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "demo",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "test@test.de",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "230230",
+									"type": "text"
+								},
+								{
+									"key": "c_password",
+									"value": "230230",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8000/api/register",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Jun 2020 16:42:57 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Jun 2020 16:42:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Данные загружены\",\n    \"status\": \"User register successfully.\",\n    \"data\": {\n        \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZDQ4YjNjNGUyNDQ3NTRkZGE5OTU2YTkyN2QwMTdhZTZhNzFmM2U0MmVmM2ExMTQwYjM1NTIyZDg0N2QzMGNkNTljMGU2NDQxNWMzNzU0ZjciLCJpYXQiOjE1OTIyMzkzNzcsIm5iZiI6MTU5MjIzOTM3NywiZXhwIjoxNjIzNzc1Mzc3LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.CiSZ630JVXoQnUQnHWChSX4XCezmeEMk81vf70_9vWT6krKHBL47DwCyQGkuinLSguh5AtlrcQzrty8gTc1axY1A7juwf3f1j8OfYDn1LiK8lYhGJZqOTL4rubXnkCJ_TYCmQUGPP-l1ty6qPvgTm-zMMTq9j-ZmJ6Tk8amnaUAIgu95yeyEMRG1wVfFUnU57Sm6GI5rfU5nO7hniTYUzOdRWByJb3ntFWGDVeUXEi0OtfqBCXJzBuuFn1cep8iBJ7cLQeayetL6yKKaMBdOpg53Wp0Qpt4Eme7NmQqufBarxbWjH20JCD3fkdwIhHimIsfLiIBUaaZ-r4CztLMKjN9B7eJNIVveBT-knxpKVNKN-Oux8HDbWikYgML_-J01tnl69XOpPIWOs3sqSBXme2yjBfHN-CJ0HGT1fd5cD8KEYUqfAZG8ydR2xVdIXRQ-lmWhXzsq6jajM9NWMCcYydFG8enQWZ8BSCQHD4Y4JyFqFWqnsCSToUHDUtTnoWYIBKR8G8kg6VpCYiO4IT8uk7zexdGPXdxVaIvOgMek-Eccgrk77evyoZ4rouKthP0k8NtW-iJ5-fHh6NnnuvXZesIW6B0jAgtaLDIdly4WLfC-OWX0Hn5efHdohqdqHNMvHax10L5wJswzW2ucnnj44VU4t2Yxw5aGReT8KDPdPic\",\n        \"name\": \"demo\"\n    },\n    \"paginator\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "test@test.ts",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "230230",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "test@test.ts",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "230230",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Jun 2020 16:40:48 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Jun 2020 16:40:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Данные загружены\",\n    \"status\": \"User login successfully.\",\n    \"data\": {\n        \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOTgxNzU0ZjIyNWMyMzRiNDZiNmQwMzdkMjU4MWEwYjIwM2JlYjEzODdhOTY1ODRlMmEzMmMxNjM2ZmZiYTBhYjdmOWYxY2U3YjhmZmJmZTYiLCJpYXQiOjE1OTIyMzkyNDgsIm5iZiI6MTU5MjIzOTI0OCwiZXhwIjoxNjIzNzc1MjQ4LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.fQWvbPM4qVDXElL8-XPou3zRFn0iEkoeUrWvYS6idgJTZ7-XPZG-foeesD_bKPhiRMHtahMJY66XXtGkVyY0Nl_rn3ct4jSbXTi0ZrinfU0WA8DXyecTA-WGbJfr2XK0YlrpWdGPFXuhcYNSe1ePlKU1wkmNhRdQwzSivzmFUQ-qT3Gk4Pjvq6189DA0ycGosfqRYEFFk_XqRDHSxMIUXSWEC5iXXqY74CMuG8ccKzUXHGQrz8041xgEF-35QgZCYhZ5F_ZAbSrFDiws5BR3k7wMygK8BsS3Juuklaxjsdxv71r1wd_RjXMzFA9u6tKG1DiiwgKum3sJhytCvSI3qHWMp5IbGJTGPlkuwid5jqLoEPkLdofKECWLeYjLkHwUrVif3-U6FUrtCjWUNyIsX2m3o-zGq6WvaDtyJxJSO9JVrIQfRgVfP5d8xI0YP54CpY7AQaPjjayNT-3FNFiAiYeONxm0bS5nQlug0KSmzoUZrNv8PlJpfetnpTgAvSFHN9qPYAx4qWIlOPxJYfSrlZNf-DcCNxpJg4a6yjB1r4I1tpecqWmyQyrPl0RkQPilgEspSMzn7wQ96Lhq94VzeXaEuYctR5u-Mpd1sUzpgsMM3Oi3w7ej3T4OEZ3E7Q1t2f3TGzP5xdzQVyqZ6rFJ2I_DeuXThbxRwKwi9LxwGjo\",\n        \"name\": \"test\"\n    },\n    \"paginator\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Get currency by id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTkwZGM3Y2FlZTdlZGY1MDFhOTFlOTA2Y2YxMTA1MWNkNWRjOTkxNTE3N2E1MWU4Y2NlOTI5OWEyM2I2NTc2OTkzMGU5YmFiMWYyYmViZWYiLCJpYXQiOjE1OTIyNDA5NzQsIm5iZiI6MTU5MjI0MDk3NCwiZXhwIjoxNjIzNzc2OTc0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bKZPnkN6LAVMBKzMtrGgg384FI_SWbEDGeAPATkOQJfkj2kQ6r_1TucGcD5dKbjipCoQCodgbbTRjldREMNxWeI08q0ozAVkYC9bABkYRTWWP4_KKP5stK64lGfyS4DZQbNBT-t1PrI9Jl8IEpRlTd8E2DEKQsVEyNvV2NVfrpZN3c6_ofWzKCRWcRd6mDZJVuwBa_6jWJFWJYbkjv2hXMkmAoOhDwUSC-mAWTq1gdWf8ozutdkUTw0NuhAzW47zgBzuZNe8_n__mqexNYvnj5Mn0hg7lrcD-3hy1Ek6jHzo1QjELSsVsTR1NixKosyLQv_4c-mpMBI8AgB1zzM9UTghsUjN-wCl_jqrEdJQeNbgsXivFHDSRDIuEZD8HRupu9kl1LT5PhkTSl-0D18Q4HdqBf_jO9URtoKxaikrcUUp6Gr5LF8FHSpNzTVGNm3LRhO1rLPZANMaoPTscuckTyGZXeQ8qtRSe5s8748q8u6ssVuujqyjlQ3UZuPu5qWCTtay2iR6neAd1vq3Z3bl40U-IrvyjDx4timLe2jzr3aY7_LcI6tRuIujMlHr7YMkpC3ytzhC_sxqF9s__31f-IxkapOYB7lXZJ99IAvoMznRQCgT2DapeYS4Q-4yoJStkdbYfRUz8NnqvKCVnDXk_ZDVCWhD94S41kJMKmVXRdQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/currencies/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"currencies",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8000/api/currencies/1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTkwZGM3Y2FlZTdlZGY1MDFhOTFlOTA2Y2YxMTA1MWNkNWRjOTkxNTE3N2E1MWU4Y2NlOTI5OWEyM2I2NTc2OTkzMGU5YmFiMWYyYmViZWYiLCJpYXQiOjE1OTIyNDA5NzQsIm5iZiI6MTU5MjI0MDk3NCwiZXhwIjoxNjIzNzc2OTc0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bKZPnkN6LAVMBKzMtrGgg384FI_SWbEDGeAPATkOQJfkj2kQ6r_1TucGcD5dKbjipCoQCodgbbTRjldREMNxWeI08q0ozAVkYC9bABkYRTWWP4_KKP5stK64lGfyS4DZQbNBT-t1PrI9Jl8IEpRlTd8E2DEKQsVEyNvV2NVfrpZN3c6_ofWzKCRWcRd6mDZJVuwBa_6jWJFWJYbkjv2hXMkmAoOhDwUSC-mAWTq1gdWf8ozutdkUTw0NuhAzW47zgBzuZNe8_n__mqexNYvnj5Mn0hg7lrcD-3hy1Ek6jHzo1QjELSsVsTR1NixKosyLQv_4c-mpMBI8AgB1zzM9UTghsUjN-wCl_jqrEdJQeNbgsXivFHDSRDIuEZD8HRupu9kl1LT5PhkTSl-0D18Q4HdqBf_jO9URtoKxaikrcUUp6Gr5LF8FHSpNzTVGNm3LRhO1rLPZANMaoPTscuckTyGZXeQ8qtRSe5s8748q8u6ssVuujqyjlQ3UZuPu5qWCTtay2iR6neAd1vq3Z3bl40U-IrvyjDx4timLe2jzr3aY7_LcI6tRuIujMlHr7YMkpC3ytzhC_sxqF9s__31f-IxkapOYB7lXZJ99IAvoMznRQCgT2DapeYS4Q-4yoJStkdbYfRUz8NnqvKCVnDXk_ZDVCWhD94S41kJMKmVXRdQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8000/api/currencies/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"currencies",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Jun 2020 18:26:44 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Jun 2020 18:26:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Данные загружены\",\n    \"status\": \"ok\",\n    \"data\": [\n        {\n            \"name\": \"Австралийский доллар\",\n            \"rate\": 48\n        }\n    ],\n    \"paginator\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "get all",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTkwZGM3Y2FlZTdlZGY1MDFhOTFlOTA2Y2YxMTA1MWNkNWRjOTkxNTE3N2E1MWU4Y2NlOTI5OWEyM2I2NTc2OTkzMGU5YmFiMWYyYmViZWYiLCJpYXQiOjE1OTIyNDA5NzQsIm5iZiI6MTU5MjI0MDk3NCwiZXhwIjoxNjIzNzc2OTc0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bKZPnkN6LAVMBKzMtrGgg384FI_SWbEDGeAPATkOQJfkj2kQ6r_1TucGcD5dKbjipCoQCodgbbTRjldREMNxWeI08q0ozAVkYC9bABkYRTWWP4_KKP5stK64lGfyS4DZQbNBT-t1PrI9Jl8IEpRlTd8E2DEKQsVEyNvV2NVfrpZN3c6_ofWzKCRWcRd6mDZJVuwBa_6jWJFWJYbkjv2hXMkmAoOhDwUSC-mAWTq1gdWf8ozutdkUTw0NuhAzW47zgBzuZNe8_n__mqexNYvnj5Mn0hg7lrcD-3hy1Ek6jHzo1QjELSsVsTR1NixKosyLQv_4c-mpMBI8AgB1zzM9UTghsUjN-wCl_jqrEdJQeNbgsXivFHDSRDIuEZD8HRupu9kl1LT5PhkTSl-0D18Q4HdqBf_jO9URtoKxaikrcUUp6Gr5LF8FHSpNzTVGNm3LRhO1rLPZANMaoPTscuckTyGZXeQ8qtRSe5s8748q8u6ssVuujqyjlQ3UZuPu5qWCTtay2iR6neAd1vq3Z3bl40U-IrvyjDx4timLe2jzr3aY7_LcI6tRuIujMlHr7YMkpC3ytzhC_sxqF9s__31f-IxkapOYB7lXZJ99IAvoMznRQCgT2DapeYS4Q-4yoJStkdbYfRUz8NnqvKCVnDXk_ZDVCWhD94S41kJMKmVXRdQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/currencies?page=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"currencies"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "all currency with pagination",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTkwZGM3Y2FlZTdlZGY1MDFhOTFlOTA2Y2YxMTA1MWNkNWRjOTkxNTE3N2E1MWU4Y2NlOTI5OWEyM2I2NTc2OTkzMGU5YmFiMWYyYmViZWYiLCJpYXQiOjE1OTIyNDA5NzQsIm5iZiI6MTU5MjI0MDk3NCwiZXhwIjoxNjIzNzc2OTc0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bKZPnkN6LAVMBKzMtrGgg384FI_SWbEDGeAPATkOQJfkj2kQ6r_1TucGcD5dKbjipCoQCodgbbTRjldREMNxWeI08q0ozAVkYC9bABkYRTWWP4_KKP5stK64lGfyS4DZQbNBT-t1PrI9Jl8IEpRlTd8E2DEKQsVEyNvV2NVfrpZN3c6_ofWzKCRWcRd6mDZJVuwBa_6jWJFWJYbkjv2hXMkmAoOhDwUSC-mAWTq1gdWf8ozutdkUTw0NuhAzW47zgBzuZNe8_n__mqexNYvnj5Mn0hg7lrcD-3hy1Ek6jHzo1QjELSsVsTR1NixKosyLQv_4c-mpMBI8AgB1zzM9UTghsUjN-wCl_jqrEdJQeNbgsXivFHDSRDIuEZD8HRupu9kl1LT5PhkTSl-0D18Q4HdqBf_jO9URtoKxaikrcUUp6Gr5LF8FHSpNzTVGNm3LRhO1rLPZANMaoPTscuckTyGZXeQ8qtRSe5s8748q8u6ssVuujqyjlQ3UZuPu5qWCTtay2iR6neAd1vq3Z3bl40U-IrvyjDx4timLe2jzr3aY7_LcI6tRuIujMlHr7YMkpC3ytzhC_sxqF9s__31f-IxkapOYB7lXZJ99IAvoMznRQCgT2DapeYS4Q-4yoJStkdbYfRUz8NnqvKCVnDXk_ZDVCWhD94S41kJMKmVXRdQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8000/api/currencies?page=1",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"currencies"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Jun 2020 18:41:14 +0000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 15 Jun 2020 18:41:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Данные загружены\",\n    \"status\": \"ok\",\n    \"data\": [\n        {\n            \"name\": \"Австралийский доллар\",\n            \"rate\": 48\n        },\n        {\n            \"name\": \"Азербайджанский манат\",\n            \"rate\": 41\n        },\n        {\n            \"name\": \"Фунт стерлингов Соединенного королевства\",\n            \"rate\": 88\n        },\n        {\n            \"name\": \"Армянских драмов\",\n            \"rate\": 15\n        },\n        {\n            \"name\": \"Белорусский рубль\",\n            \"rate\": 29\n        },\n        {\n            \"name\": \"Болгарский лев\",\n            \"rate\": 40\n        },\n        {\n            \"name\": \"Бразильский реал\",\n            \"rate\": 14\n        },\n        {\n            \"name\": \"Венгерских форинтов\",\n            \"rate\": 23\n        },\n        {\n            \"name\": \"Гонконгских долларов\",\n            \"rate\": 91\n        },\n        {\n            \"name\": \"Датская крона\",\n            \"rate\": 11\n        },\n        {\n            \"name\": \"Доллар США\",\n            \"rate\": 70\n        },\n        {\n            \"name\": \"Евро\",\n            \"rate\": 79\n        },\n        {\n            \"name\": \"Индийских рупий\",\n            \"rate\": 93\n        },\n        {\n            \"name\": \"Казахстанских тенге\",\n            \"rate\": 17\n        },\n        {\n            \"name\": \"Канадский доллар\",\n            \"rate\": 52\n        }\n    ],\n    \"paginator\": {\n        \"current_page\": 1,\n        \"first_page_url\": \"http://localhost:8000/api/currencies?page=1\",\n        \"from\": 1,\n        \"last_page\": 3,\n        \"last_page_url\": \"http://localhost:8000/api/currencies?page=3\",\n        \"next_page_url\": \"http://localhost:8000/api/currencies?page=2\",\n        \"path\": \"http://localhost:8000/api/currencies\",\n        \"per_page\": 15,\n        \"prev_page_url\": null,\n        \"to\": 15,\n        \"total\": 34\n    }\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
